@@ -1,0 +1,75 @@
+/* Comentario en css
+
+elemento {
+    propiedad: valor;
+}
+
+*/
+
+/* Reset */
+*{ 
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+.menu-list li{
+    list-style-type: none;
+    }
+
+.menu-list li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.cont-head{
+    background-color: #212028;
+}
+.cont-logo {
+    width: 100px;
+}
+.cont-logo img{
+    width: 100%;
+}
+
+/* main */
+.title-primary {
+    font-weight: 900;
+    font-size: 2rem;
+}
+.title-secondary{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.cont-banner{
+    width: 700px;
+}
+.cont-banner img{
+    width: 100%;
+}
+.card-services {
+    width: 500px;
+}
+.card-services img{
+    width: 100%;
+}
+.list-contact li{
+    list-style-type: none;
+}
+
+/* footer */
+.cont-end{
+    background-color: #212028;
+}
+.cont-redes {
+    width: 20px;
+}
+.cont-redes img {
+    width: 100%;
+}
+.cont-redes a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
